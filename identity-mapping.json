@@ -75,29 +75,20 @@
 		"addressLine1": {
 			"value": "addressLine1"
 		},
-		"addressLine2": {
-			"value": "addressLine2"
-		},
-		"addressLine3": {
-			"value": "addressLine3"
-		},
 		"location1": {
-			"value": "city"
+			"value": "villa"
 		},
 		"location2": {
-			"value": "region"
+			"value": "city"
 		},
 		"location3": {
-			"value": "province"
-		},
-		"postalCode": {
-			"value": "postalCode"
+			"value": "district"
 		},
 		"location4": {
-			"value": "zone"
+			"value": "island"
 		},
 		"fullAddress": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
+			"value": "addressLine1,villa,city,district,island"
 		},
 		"bestTwoFingers": {
 			"value": "bestTwoFingers"
@@ -112,7 +103,7 @@
 			"value": "phone"
 		},
 		"address": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
+			"value": "addressLine1,villa,city,district,island"
 		},
 
 		"individual_id": {
@@ -124,11 +115,17 @@
 		"street_address": {
 			"value": "addressLine1,addressLine2,addressLine3"
 		},
-		"locality": {
+		"villa": {
+			"value": "villa"
+		},
+		"city": {
 			"value": "city"
 		},
-		"region": {
-			"value": "region"
+		"district": {
+			"value": "district"
+		},
+		"island": {
+			"value": "island"
 		},
 		"postal_code": {
 			"value": "postalCode"
@@ -158,9 +155,6 @@
 		},
 		"pob": {
 			"value": "proofOfDateOfBirth"
-		},
-		"poe": {
-			"value": "proofOfException"
 		}
 	},
 	"attributeUpdateCountLimit": {
