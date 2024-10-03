@@ -28,13 +28,16 @@
             "addressLine3"
         ],
         "location1": [
-            "city"
+            "villa"
         ],
         "location2": [
-            "region"
+            "city"
         ],
         "location3": [
-            "province"
+            "district"
+        ],
+        "location4": [
+            "island"
         ],
         "postalCode": [
             "postalCode"
@@ -43,9 +46,10 @@
             "addressLine1",
             "addressLine2",
             "addressLine3",
+            "villa",
             "city",
-            "region",
-            "province",
+            "district",
+            "island",
             "postalCode"
         ],
         "iris": [
@@ -57,14 +61,13 @@
         "face": [
             "CBEFF"
         ],
-        "location4" : [ "zone" ],
         "residenceStatus" : ["residenceStatus" ],
         "preferredLanguage" : ["preferredLang" ],
         "locationProfile": [
+            "villa",
             "city",
-            "region",
-            "province",
-            "zone"
+            "district",
+            "island"
         ]
     }
 }
