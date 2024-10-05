@@ -11,16 +11,20 @@
         "@id": "https://${mosip.api.public.host}/mosip#addressLine1",
         "@context": {"value": "rdf:value", "lang": "@language"}
     },
-    "addressLine2": {
-        "@id": "https://${mosip.api.public.host}/mosip#addressLine2",
+    "island": {
+        "@id": "https://${mosip.api.public.host}/mosip#island",
         "@context": {"value": "rdf:value", "lang": "@language"}
     },
-    "addressLine3": {
-        "@id": "https://${mosip.api.public.host}/mosip#addressLine3",
+    "district": {
+        "@id": "https://${mosip.api.public.host}/mosip#district",
         "@context": {"value": "rdf:value", "lang": "@language"}
     },
     "city": {
-        "@id": "https://${mosip.api.public.host}/mosip#city",
+      "@id": "https://${mosip.api.public.host}/mosip#city",
+      "@context": {"value": "rdf:value", "lang": "@language"}
+    },
+    "villa": {
+        "@id": "https://${mosip.api.public.host}/mosip#villa",
         "@context": {"value": "rdf:value", "lang": "@language"}
     },
      "gender": {
