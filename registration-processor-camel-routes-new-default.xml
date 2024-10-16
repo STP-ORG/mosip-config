@@ -293,10 +293,10 @@
             <to uri="workflow-cmd://complete-as-rejected" />
             <to uri="workflow-cmd://anonymous-profile" />
          </when>
-		 <when>
+  <!-- 	<when>
             <jsonpath suppressExceptions="true">$.[?(@['tags']['AGE_GROUP'] == 'INFANT')]</jsonpath>
             <to uri="eventbus://verification-bus-in" />
-         </when>
+         </when> -->
          <otherwise>
             <to uri="eventbus://bio-dedupe-bus-in" />
          </otherwise>
@@ -356,10 +356,10 @@
             <to uri="workflow-cmd://complete-as-rejected" />
             <to uri="workflow-cmd://anonymous-profile" />
          </when>
-         <when>
+         <!-- <when>
             <jsonpath suppressExceptions="true">$.[?(@['messageBusAddress']['address'] == 'verification-bus-in')]</jsonpath>
             <to uri="eventbus://verification-bus-in" />
-         </when>
+         </when> -->
          <when>
             <jsonpath suppressExceptions="true">$.[?(@['messageBusAddress']['address'] == 'abis-handler-bus-in')]</jsonpath>
             <to uri="eventbus://abis-handler-bus-in" />
