@@ -511,12 +511,12 @@
             <to uri="workflow-cmd://anonymous-profile" />
          </when>
          <otherwise>
-            <to uri="eventbus://printing-bus-in" />
+            <to uri="eventbus://credential-requestor-bus-in" />
          </otherwise>
       </choice>
    </route>
    <route id="printing-stage--> new route">
-      <from uri="eventbus://printing-new-bus-out" />
+      <from uri="eventbus://credential-requestor-new-bus-out" />
       <log message="printing-stage--> route ${bodyAs(String)}" />
       <choice>
          <when>
