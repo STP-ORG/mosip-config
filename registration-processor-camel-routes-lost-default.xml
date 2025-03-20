@@ -465,7 +465,7 @@
             <to uri="workflow-cmd://anonymous-profile" />
          </when>
          <otherwise>
-            <to uri="eventbus://printing-bus-in" />
+            <to uri="eventbus://credential-requestor-bus-in" />
          </otherwise>
       </choice>
    </route>
